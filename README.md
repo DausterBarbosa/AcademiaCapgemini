@@ -40,7 +40,7 @@
 
 ## Como executar os desafios
 
-<p>Para executar os desafios clique em cima do arquivo do desafio <strong>(EX: Desafio01.java)</strong> siga até <strong>Run As</strong> e depois clique em <strong>Java Application</strong>.</p>
+<p>Para executar os desafios clique com o botão direito em cima do arquivo do desafio <strong>(EX: Desafio01.java)</strong> siga até <strong>Run As</strong> e depois clique em <strong>Java Application</strong>.</p>
 
 <img src=".github/Screenshot_2022-02-18_16-21-59.png"/>
 
