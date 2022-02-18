@@ -2,16 +2,19 @@ package desafio02;
 
 public class Desafio02Solucao {
 	
+	// Estipula o tamanho constante mínimo da senha
+	private final int TAMANHO_MINIMO_DA_SENHA = 6;
+	
+	// Caracteres especiais
+	private final char CHAR_ESPECIAIS[] = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+'};
+	
 	// Controle dos caracteres de segurança
 	private boolean contemDigito = false;
 	private boolean contemMinusculo = false;
 	private boolean contemMaiusculo = false;
 	private boolean contemCharEspecial = false;
 	
-	// Caracteres especiais
-	private char charEspeciais[] = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+'};
-	
-	//Digitos de segurança que faltam na senha
+	// Digitos de segurança que faltam na senha
 	private int digitosDeSegurancaFaltando = 0;
 	
 	public int verificarSenha(String senha) {
@@ -41,27 +44,27 @@ public class Desafio02Solucao {
 		}
 		
 		// Verifica se existem caracteres especiais na senha
-		for(int x = 0; x < charEspeciais.length; x++) {
-			if(senha.indexOf(charEspeciais[x]) != -1) {
+		for(int x = 0; x < CHAR_ESPECIAIS.length; x++) {
+			if(senha.indexOf(CHAR_ESPECIAIS[x]) != -1) {
 				contemCharEspecial = true;
 				break;
 			}
 		}
 		
-		//Verifica os digitos de segurança que faltam
+		// Verifica os digitos de segurança que faltam
 		if(!contemDigito) digitosDeSegurancaFaltando++;
 		if(!contemMinusculo) digitosDeSegurancaFaltando++;
 		if(!contemMaiusculo) digitosDeSegurancaFaltando++;
 		if(!contemCharEspecial) digitosDeSegurancaFaltando++;
 		
-		//Retorna quantos digitos faltam levando em consideração os digitos de segurança
-		if(senha.length() >= 6) {
+		// Retorna quantos digitos faltam levando em consideração os digitos de segurança
+		if(senha.length() >= TAMANHO_MINIMO_DA_SENHA) {
 			return digitosDeSegurancaFaltando;
 		} else {
-			if(6 - senha.length() <  digitosDeSegurancaFaltando) {
+			if(TAMANHO_MINIMO_DA_SENHA - senha.length() <  digitosDeSegurancaFaltando) {
 				return digitosDeSegurancaFaltando;
 			} else {
-				return 6 - senha.length();
+				return TAMANHO_MINIMO_DA_SENHA - senha.length();
 			}
 		}
 		
