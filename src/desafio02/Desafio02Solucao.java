@@ -12,7 +12,7 @@ public class Desafio02Solucao {
 	private char charEspeciais[] = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+'};
 	
 	//Digitos de segurança que faltam na senha
-	int digitosDeSegurancaFaltando = 0;
+	private int digitosDeSegurancaFaltando = 0;
 	
 	public int verificarSenha(String senha) {
 		
@@ -54,7 +54,7 @@ public class Desafio02Solucao {
 		if(!contemMaiusculo) digitosDeSegurancaFaltando++;
 		if(!contemCharEspecial) digitosDeSegurancaFaltando++;
 		
-		//Mostra quantos digitos faltam levando em consideração os digitos de segurança
+		//Retorna quantos digitos faltam levando em consideração os digitos de segurança
 		if(senha.length() >= 6) {
 			return digitosDeSegurancaFaltando;
 		} else {
