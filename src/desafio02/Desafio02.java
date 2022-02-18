@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Desafio02 {
 	public static void main(String[] args) {
+		
 		Scanner scan = new Scanner(System.in);
 		
 		String senha = scan.nextLine();
@@ -13,5 +14,6 @@ public class Desafio02 {
 		System.out.print(solucao.verificarSenha(senha));
 		
 		scan.close();
+		
 	}
 }

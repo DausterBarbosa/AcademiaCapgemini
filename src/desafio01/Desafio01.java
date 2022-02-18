@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Desafio01 {
 	public static void main(String[] args) {
+		
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.print("n = ");
@@ -14,5 +15,6 @@ public class Desafio01 {
 		System.out.print(solucao.criarEscada(n));
 		
 		scan.close();
+		
 	}
 }
