@@ -7,10 +7,14 @@
 ## Tecnologias ultilizadas
 
 <ul>
-    <li>Java 11</li>
-    <li>Eclipse IDE for Java Developers - 2021 - 03</li>
-    <li>Junit 5</li>
+    <li>Java SE 11 <strong>(Pode ser baixado <a href="https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html">Aqui</a>)</strong></li>
+    <li>Eclipse IDE for Java Developers - 2021 - 03 <strong>(Pode ser baixado <a href="https://www.eclipse.org/downloads/">Aqui</a>)</strong></li>
+    <li>Junit 5 <strong>(Pode ser baixado <a href="https://junit.org/junit5/">Aqui</a>)</strong></li></li>
 </ul>
+
+<p>Para informações mais apuradas recomenda-se usar a documentação oficial da ferramenta.</p>
+
+<strong>Observação: A IDE do Eclipse já trás suporte para a ferramenta de testes Junit.</strong>
 
 ## Como rodar a aplicação
 
