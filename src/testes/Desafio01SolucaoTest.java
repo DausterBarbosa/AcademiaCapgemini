@@ -10,16 +10,11 @@ class Desafio01SolucaoTest {
 	
 	Desafio01Solucao solucao = new Desafio01Solucao();
 	
-	String escadaTeste = "     *\n"
-						+ "    **\n"
-						+ "   ***\n"
-						+ "  ****\n"
-						+ " *****\n"
-						+ "******";
+	String escadaEsperada = "     *\n" + "    **\n" + "   ***\n" + "  ****\n" + " *****\n" + "******";
 
 	@Test
 	void testCriarEscada() {
-		assertEquals(escadaTeste, solucao.criarEscada(6));
+		assertEquals(escadaEsperada, solucao.criarEscada(6));
 	}
 
 }
