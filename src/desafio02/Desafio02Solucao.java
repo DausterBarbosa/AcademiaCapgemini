@@ -2,16 +2,19 @@ package desafio02;
 
 public class Desafio02Solucao {
 	
+	// Controle dos caracteres de segurança
+	private boolean contemDigito = false;
+	private boolean contemMinusculo = false;
+	private boolean contemMaiusculo = false;
+	private boolean contemCharEspecial = false;
+	
+	// Caracteres especiais
+	private char charEspeciais[] = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+'};
+	
+	//Digitos de segurança que faltam na senha
+	int digitosDeSegurancaFaltando = 0;
+	
 	public int verificarSenha(String senha) {
-		
-		// Controle dos caracteres de segurança
-		boolean contemDigito = false;
-		boolean contemMinusculo = false;
-		boolean contemMaiusculo = false;
-		boolean contemCharEspecial = false;
-		
-		// Caracteres especiais
-		char charEspeciais[] = {'!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '+'};
 		
 		// Verifica se existem digitos na senha
 		for(char x = '0'; x <= '9' ; x++) {
@@ -46,8 +49,6 @@ public class Desafio02Solucao {
 		}
 		
 		//Verifica os digitos de segurança que faltam
-		int digitosDeSegurancaFaltando = 0;
-		
 		if(!contemDigito) digitosDeSegurancaFaltando++;
 		if(!contemMinusculo) digitosDeSegurancaFaltando++;
 		if(!contemMaiusculo) digitosDeSegurancaFaltando++;

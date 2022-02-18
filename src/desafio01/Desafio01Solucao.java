@@ -2,9 +2,9 @@ package desafio01;
 
 public class Desafio01Solucao {
 	
+	private String escada = "";
+	
 	public String criarEscada(int n) {
-		
-		String escada = "";
 		
 		for(int x = 1; x <= n; x++) {
 			
