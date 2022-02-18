@@ -46,7 +46,7 @@
 
 ## Como executar os testes unitários
 
-<p>Para executar os testes basta clicar com o botão direito sobre o arquivo de teste ir até <strong>Run As</strong> e depois clicar em <strong>JUnit Test</strong>, se quiser executar todos os testes clique com o botão direito sobre <strong>Academia Capgemini</strong> e siga os mesmos passos descritos antes.</p>
+<p>Para executar os testes basta clicar com o botão direito sobre o arquivo de teste ir até <strong>Run As</strong> e depois clicar em <strong>JUnit Test</strong>, se quiser executar todos os testes clique com o botão direito sobre o diretório raiz <strong>Academia Capgemini</strong> e siga os mesmos passos descritos antes.</p>
 
 <img src=".github/Screenshot_2022-02-18_15-37-37.png"/>
 
