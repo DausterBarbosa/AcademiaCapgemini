@@ -38,6 +38,12 @@
 <img src=".github/Screenshot_2022-02-18_15-19-24.png"/>
 <p>Dentro de <strong>src</strong> contém os pacotes com a solução dos desafios em ordem e um pacote contendo os testes unitários dos mesmos, dentro de cada pacote de solução de um desafio contém uma classe com o algoritmo <strong>(EX: Desafio01Solucao.java)</strong> que resolve o problema proposto, e uma classe contendo o método Main <strong>(EX: Desafio01.java)</strong> onde é instanciada a classe com o algoritmo.</p>
 
+## Como executar os desafios
+
+<p>Para executar os desafios clique em cima do arquivo do desafio <strong>(EX: Desafio01.java)</strong> siga até <strong>Run As</strong> e depois clique em <strong>Java Application</strong>.</p>
+
+<img src=".github/Screenshot_2022-02-18_16-21-59.png"/>
+
 ## Como executar os testes unitários
 
 <p>Para executar os testes basta clicar com o botão direito sobre o arquivo de teste ir até <strong>Run As</strong> e depois clicar em <strong>JUnit Test</strong>, se quiser executar todos os testes clique com o botão direito sobre <strong>Academia Capgemini</strong> e siga os mesmos passos descritos antes.</p>
