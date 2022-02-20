@@ -36,11 +36,10 @@
 
 <p>O projeto está estruturado da seguinte forma:</p>
 <img src=".github/Screenshot_2022-02-19_21-01-39.png"/>
-<p>Dentro de <strong>src</strong> contém os pacotes com a solução dos desafios em ordem e um pacote contendo os testes unitários dos mesmos, dentro de cada pacote de solução de um desafio contém uma classe com o algoritmo <strong>(EX: Desafio01Solucao.java)</strong> que resolve o problema proposto, e uma classe contendo o método Main <strong>(EX: Desafio01.java)</strong> onde é instanciada a classe com o algoritmo.</p>
-
 <strong>Desafio01 - Desafio da Escada</strong><br/>
 <strong>Desafio02 - Desafio da Senha</strong><br/>
-<strong>Desafio03 - Desafio dos Anagramas Pares</strong>
+<strong>Desafio03 - Desafio dos Anagramas Pares</strong></br></br>
+<p>Dentro de <strong>src</strong> contém os pacotes com a solução dos desafios em ordem e um pacote contendo os testes unitários dos mesmos, dentro de cada pacote de solução de um desafio contém uma classe com o algoritmo <strong>(EX: Desafio01Solucao.java)</strong> que resolve o problema proposto, e uma classe contendo o método Main <strong>(EX: Desafio01.java)</strong> onde é instanciada a classe com o algoritmo.</p>
 
 ## Como executar os desafios
 
